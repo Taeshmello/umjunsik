@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Page</title>
+  <link rel="stylesheet" type="text/css" href="/css/profilestyle.css">
+</head>
+<body>
+    <a href="index.html"><h2>🐝Project:Hive🍯</h2></a>
+  <div class="container">
+   
+    
+    <div class="tab-menu">
+      <ul>
+        <li><a href="javascript:void(0);" class="tab-link active" onclick="openTab('profile')">🍯프로필🍯</a></li>
+        <li><a href="javascript:void(0);" class="tab-link" onclick="openTab('projects')">🍯참여중인 프로젝트🍯</a></li>
+        <li><a href="javascript:void(0);" class="tab-link" onclick="openTab('management')">🍯프로젝트 관리🍯</a></li>
+      </ul>
+     
+    </div>
+    
+    <div id="profile" class="tab-content active">
+    <img src="css/skins/꿀벌.png" alt="프로필이미지" class="profileImage">
+    
+<form id="profileForm">
+  <label for="name">이름:</label>
+  <input type="text" id="name" placeholder="이름을 입력해주세요" required><br>
+
+  <label for="affiliation">소속:</label>
+  <input type="text" id="affiliation" placeholder="소속을 입력해주세요" required><br>
+
+  <label for="department">담당:</label>
+  <input type="text" id="department" placeholder="담당을 입력해주세요" required><br>
+
+  <button type="submit" class="btn">저장</button>
+</form>
+
+    </div>
+    
+    <div id="projects" class="tab-content">
+      <ul>
+      </ul>
+    </div>
+    
+    <div id="management" class="tab-content">
+      <ul>
+      </ul>
+    </div>
+    
+  </div>
+  
+  <script src="script/profile.js"></script>
+</body>
+</html>

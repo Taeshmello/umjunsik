@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Noto Sans KR',sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(skins/태호form배경.jpg);
+    background-size: cover;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  .profileImage{
+    width: 28%;
+    height: auto;
+  }
+
+  #profile{
+    overflow: hidden;
+  }
+ h2{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+ }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .tab-menu {
+    margin-bottom: 40px;
+  }
+  li{
+    list-style: none;
+  }
+  .tab-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;    
+  }
+  
+  .tab-menu li {
+    margin-right: 10px;
+  
+  }
+  
+  .tab-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .tab-menu a {
+    display: inline-block;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+  }
+  
+  .tab-menu a.active {
+    background-color: #fff;
+  }
+
+
+  
+  .tab-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0 5px 5px 5px;
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+    margin: 0;
+    
+  }
+
+  input{
+    padding: 10px; 
+
+    margin-bottom: 10px;
+  }
+  .name{
+    margin: 0;
+  }
+
+  #logoutBtn{
+    
+    background-color: red;
+    margin-bottom: 30px;
+    color: white;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+    border: none;
+  }
+  #logoutBtn:hover{
+    background-color: darkred;
+  }
